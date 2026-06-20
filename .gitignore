@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore large model files
+*.gguf
+
+# Ignore local vector database and data folders
+vector_db/
+data/
