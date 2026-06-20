@@ -184,5 +184,5 @@ cython_debug/
 *.gguf
 
 # Ignore local vector database and data folders
-vector_db/
-data/
+# vector_db/
+# data/
